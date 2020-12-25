@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <header class="header">
+    <div>
+      <p class="title">Todo</p>
+    </div>
+    <div>
+      <img src="./images/icon-sun.svg" alt="">
+    </div>
+    
+  </header>
+  <div class="container">
+    
+    <!-- Add dynamic number items left -->
+    <main>
+      <div class="newTodo">
+        <input type="checkbox" class="checkbox">
+        <input type="text" id="textInput" placeholder="Create a new todo">
+      </div>
+      <div class="todoList">
+        <div class="firstTodo">
+          <input type="checkbox" class="checkbox">
+          <p>Jug around the park 3x</p>
+          <img src="./images/icon-cross.svg" class="delete" alt="">
+        </div>
+        <div class="secondTodo">
+          <input type="checkbox" id="checkbox2">
+          <p>Buy playstation 5</p>
+          <img src="./images/icon-cross.svg" class="delete"alt="">
+        </div>
+        
+      </div>
+    </main>
+
+    <div class="bottom">
+      <div class="itemsLeft"><p>99 items left</p></div>
+      <div class="all"><p>All</p></div>
+      <div class="active"><p>Active </p></div>
+      <div class="completed"><p>Completed</p></div>
+      <div class="clear"><p>Clear Completed</p></div>
+    </div>
+  </div>
+    
+  <footer>
+      <p>Drag and drop to reorder list</p>
+  </footer> 
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Adewale Shelby</a>.
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
